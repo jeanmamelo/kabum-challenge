@@ -1,5 +1,6 @@
 package com.jeanmamelo.kabumchallenge.service;
 
+import com.jeanmamelo.kabumchallenge.constants.Constants;
 import com.jeanmamelo.kabumchallenge.enums.KabumEnum;
 import com.jeanmamelo.kabumchallenge.enums.NinjaEnum;
 import com.jeanmamelo.kabumchallenge.model.dto.ShippingRequest;
@@ -28,7 +29,7 @@ public class ShippingService {
             ShippingResponse shippingResponse = ShippingResponse.builder()
                     .shippingPrice(shippingPrice)
                     .shippingTimeByDays(KabumEnum.SHIPPING_TIME_BY_DAYS.getValue().intValue())
-                    .name("Entrega KaBuM")
+                    .name(Constants.KABUM_SHIPPING)
                     .build();
 
             shippingResponseList.add(shippingResponse);
@@ -42,7 +43,7 @@ public class ShippingService {
             ShippingResponse shippingResponse = ShippingResponse.builder()
                     .shippingPrice(shippingPrice)
                     .shippingTimeByDays(NinjaEnum.SHIPPING_TIME_BY_DAYS.getValue().intValue())
-                    .name("Entrega Ninja")
+                    .name(Constants.NINJA_SHIPPING)
                     .build();
 
             shippingResponseList.add(shippingResponse);
