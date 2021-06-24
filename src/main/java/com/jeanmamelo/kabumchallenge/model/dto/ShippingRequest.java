@@ -16,6 +16,6 @@ public class ShippingRequest {
     private DimensionRequest dimension;
 
     @JsonProperty("peso")
-    private Double weight;
+    private Integer weight;
 
 }

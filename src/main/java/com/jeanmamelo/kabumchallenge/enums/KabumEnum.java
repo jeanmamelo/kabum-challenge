@@ -30,6 +30,8 @@ public enum KabumEnum {
     }
 
     public static Boolean isValid(ShippingRequest shippingRequest) {
-        return isValidHeight(shippingRequest.getDimension().getHeight()) && isValidWidth(shippingRequest.getDimension().getWeight());
+        return isValidHeight(shippingRequest.getDimension().getHeight().doubleValue()) &&
+                isValidWidth(shippingRequest.getDimension().getWidth().doubleValue());
     }
+
 }

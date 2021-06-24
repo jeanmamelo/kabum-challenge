@@ -24,7 +24,7 @@ public class ShippingService {
 
     private void checkShippingKabum(ShippingRequest shippingRequest, List<ShippingResponse> shippingResponseList) {
         if (KabumEnum.isValid(shippingRequest)) {
-            Double shippingPrice = calculateShippingPrice(shippingRequest.getWeight(), KabumEnum.SHIPPING_FACTOR.getValue());
+            Double shippingPrice = calculateShippingPrice(shippingRequest.getWeight().doubleValue(), KabumEnum.SHIPPING_FACTOR.getValue());
 
             ShippingResponse shippingResponse = ShippingResponse.builder()
                     .shippingPrice(shippingPrice)
@@ -38,7 +38,7 @@ public class ShippingService {
 
     private void checkShippingNinja(ShippingRequest shippingRequest, List<ShippingResponse> shippingResponseList) {
         if (NinjaEnum.isValid(shippingRequest)) {
-            Double shippingPrice = calculateShippingPrice(shippingRequest.getWeight(), NinjaEnum.SHIPPING_FACTOR.getValue());
+            Double shippingPrice = calculateShippingPrice(shippingRequest.getWeight().doubleValue(), NinjaEnum.SHIPPING_FACTOR.getValue());
 
             ShippingResponse shippingResponse = ShippingResponse.builder()
                     .shippingPrice(shippingPrice)

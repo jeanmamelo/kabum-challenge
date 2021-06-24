@@ -13,9 +13,9 @@ import lombok.NoArgsConstructor;
 public class DimensionRequest {
 
     @JsonProperty("altura")
-    private Double height;
+    private Integer height;
 
     @JsonProperty("largura")
-    private Double weight;
+    private Integer width;
 
 }
