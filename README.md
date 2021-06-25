@@ -11,7 +11,7 @@
 - Go to src/main/java/com/jeanmamelo/kabumchallenge.
 - Then run the KabumChallengeApplication method inside KabumChallengeApplication.java.
 
-### Sendind the requests using [Postman](https://www.postman.com/)
+### Sending the requests using [Postman](https://www.postman.com/)
 
 - With the project running, open Postman and send an POST request to `http://127.0.0.1:8080/shippings`.
 - Use the body of the HTTP request to inform the input data in JSON format.
