@@ -99,5 +99,5 @@
 - Add JUnit 5.4.2 to your classpath.
 - Go to src/test/java/com/jeanmamelo/kabumchallenge/controller.
 - Run the ShippingControllerTest class inside ShippingControllerTest.java.
-- Go to src/test/java/com/jeanmamelo/kabumchallenge/controller.
+- Go to src/test/java/com/jeanmamelo/kabumchallenge/service.
 - Run the ShippingServiceTest class inside ShippingServiceTest.java.
