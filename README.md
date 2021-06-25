@@ -4,38 +4,6 @@
 
 ## Getting Started
 
-### Follow the instructions to get a copy of the project up and running using the command line.
-
-- Clone the project:
-
- ```sh
- git clone https://github.com/jeanmamelo/kabum-challenge.git
- ```
-
-- Open the project folder:
-
- ```sh
- cd kabum-challenge
- ```
-
-- Go to src/main:
-
-```sh
-cd src/main/java/com/jeanmamelo/kabumchallenge
-```
-
-- Now compile the KabumChallengeApplication file:
-
- ```sh
- javac -d . KabumChallengeApplication.java
- ```
-
-- Then run the project:
-
- ```sh
- java main/Jokenpo
- ```
-
 ### Follow the instructions to get a copy of the project up and running using [IntelliJ IDE](https://www.jetbrains.com/pt-br/idea/).
 
 - Clone or download the repo.
