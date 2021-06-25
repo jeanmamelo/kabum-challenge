@@ -11,7 +11,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 
 import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
@@ -25,7 +24,6 @@ public class ShippingControllerTest extends AbstractControllerTest<ShippingContr
     private ShippingService shippingService;
 
     private ShippingRequest shippingRequest;
-    private List<ShippingResponse> shippingResponseList;
 
     @Test
     public void shouldRetrieveAListOfShippings() throws Exception {
