@@ -43,7 +43,7 @@
         "nome":"Entrega KaBuM",
         "valor_frete": 8.00,
         "prazo_dias": 4
-	}
+    }
 ]
 ```
 
@@ -92,6 +92,8 @@
 ```json
 []
 ```
+
+---
 
 ### If you want to run the unit tests
 - Add JUnit 5.4.2 to your classpath.
